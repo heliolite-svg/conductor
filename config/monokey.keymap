@@ -65,7 +65,7 @@
         swapper_cst: swapper_cst {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL>, <&kp LS(TAB)>, <&kt LCTRL>;
+            bindings = <&kt LS(LCTRL)>, <&kp TAB>, <&kt LS(LCTRL)>;
         };
     };
 
