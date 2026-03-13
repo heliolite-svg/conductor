@@ -44,28 +44,28 @@
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-
-            //          ↑起動時     ↑繰り返し  ↑終了時
-
-            //ignored-key-positions = <8>; // 後述
+            ignored-key-positions = <8>;
         };
 
         swapper_ast: swapper_ast {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LS(LALT)>, <&kp TAB>, <&kt LS(LALT)>;
+            ignored-key-positions = <8>;
         };
 
         swapper_ct: swapper_ct {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
+            ignored-key-positions = <8>;
         };
 
         swapper_cst: swapper_cst {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LS(LCTRL)>, <&kp TAB>, <&kt LS(LCTRL)>;
+            ignored-key-positions = <8>;
         };
     };
 
