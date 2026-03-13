@@ -76,9 +76,9 @@
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
+
             ignored-key-positions = <8>;
         };
-
     };
 
     keymap {
@@ -162,7 +162,7 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &swapper_ct  &swapper_at  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &swapper_gt  &swapper_at  &kp RIGHT_SHIFT  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans       &trans       &trans           &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans       &trans       &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &trans           &trans
