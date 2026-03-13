@@ -45,7 +45,7 @@
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
 
-            ignored-key-positions = <6 8>;
+            ignored-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39>;
         };
 
         swapper_ast: swapper_ast {
@@ -53,7 +53,7 @@
             #binding-cells = <0>;
             bindings = <&kt LS(LALT)>, <&kp TAB>, <&kt LS(LALT)>;
 
-            ignored-key-positions = <6 8>;
+            ignored-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39>;
         };
 
         swapper_ct: swapper_ct {
@@ -61,7 +61,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
 
-            ignored-key-positions = <8>;
+            ignored-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39>;
         };
 
         swapper_cst: swapper_cst {
@@ -69,7 +69,7 @@
             #binding-cells = <0>;
             bindings = <&kt LS(LCTRL)>, <&kp TAB>, <&kt LS(LCTRL)>;
 
-            ignored-key-positions = <8>;
+            ignored-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39>;
         };
 
         swapper_gt: swapper_gt {
@@ -77,7 +77,7 @@
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
 
-            ignored-key-positions = <8>;
+            ignored-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39>;
         };
     };
 
