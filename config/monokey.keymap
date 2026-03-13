@@ -20,12 +20,12 @@
 
         scroll {
             bindings = <&mo 5>;
-            key-positions = <17 18>;
+            key-positions = <8 7>;
         };
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <19 18>;
+            key-positions = <19 8>;
         };
     };
 
