@@ -71,6 +71,14 @@
 
             ignored-key-positions = <8>;
         };
+
+        swapper_gt: swapper_gt {
+            compatible = "zmk,behavior-tri-state";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
+            ignored-key-positions = <8>;
+        };
+
     };
 
     keymap {
