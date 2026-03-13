@@ -53,7 +53,7 @@
         swapper_ast: swapper_ast {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
-            bindings = <&kt LALT>, <&kp LS(TAB)>, <&kt LALT>;
+            bindings = <&kt LS(LALT)>, <&kp TAB>, <&kt LS(LALT)>;
         };
 
         swapper_ct: swapper_ct {
