@@ -150,10 +150,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &swapper_ast  &trans  &swapper_at  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans        &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans        &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                        &trans       &trans
             >;
         };
 
