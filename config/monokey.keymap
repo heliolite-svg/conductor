@@ -154,10 +154,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &swapper_ast  &trans  &swapper_at  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans        &trans  &trans       &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans        &trans  &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                        &trans       &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &swapper_ct  &swapper_at  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans       &trans       &trans           &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans       &trans       &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &trans           &trans
             >;
         };
 
