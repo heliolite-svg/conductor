@@ -41,13 +41,14 @@
         };
 
         swapper: swapper {
-                    compatible = "zmk,behavior-tri-state";
-                    #binding-cells = <0>;
-                    bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-                    //          ↑起動時     ↑繰り返し  ↑終了時
-                    ignored-key-positions = <8>; // 後述
-                };
+            compatible = "zmk,behavior-tri-state";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
 
+            //          ↑起動時     ↑繰り返し  ↑終了時
+
+            ignored-key-positions = <8>; // 後述
+        };
     };
 
     keymap {
@@ -131,10 +132,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &swapper  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans
             >;
         };
 
