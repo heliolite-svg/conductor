@@ -39,6 +39,15 @@
 
             bindings = <&mkp MB2>;
         };
+
+        swapper: swapper {
+                    compatible = "zmk,behavior-tri-state";
+                    #binding-cells = <0>;
+                    bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+                    //          ↑起動時     ↑繰り返し  ↑終了時
+                    ignored-key-positions = <キー番号>; // 後述
+                };
+
     };
 
     keymap {
