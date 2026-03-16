@@ -82,10 +82,10 @@
     };
 
     macros {
-        new_macro: new_macro {
+        PassMacro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp H &kp E &kp L &kp I &kp O &kp MINUS &kp N9 &kp N6 &kp N1 &kp N7>;
             label = "NEW_MACRO";
         };
     };
