@@ -163,7 +163,7 @@
         layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans       &kp LC(LS(TAB))  &kp LC(T)  &kp LC(TAB)  &trans
-&trans  &trans  &trans  &trans  &trans                  &swapper_at  &mkp MB4         &kp LC(W)  &mkp MB5     &swapper_ast
+&trans  &trans  &trans  &trans  &trans                  &swapper_at  &mkp MB4         &kp LC(W)  &mkp MB5     &kp RIGHT_SHIFT
 &trans  &trans  &trans  &trans  &trans                  &trans       &trans           &trans     &trans       &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans       &trans
             >;
