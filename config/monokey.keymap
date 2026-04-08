@@ -32,6 +32,11 @@
             bindings = <&kp TAB>;
             key-positions = <1 2>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
